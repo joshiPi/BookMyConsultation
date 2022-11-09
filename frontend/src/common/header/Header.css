@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    /* height: 70px; */
+    background-color: purple;
+    padding: 11px;
+    justify-content: space-between;
+}
+.header__logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    transform: rotate();
+}
+.header__logo--image {
+    height: 36px;
+}
+
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

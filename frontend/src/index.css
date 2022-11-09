@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal-header {
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.doctor-card {
+  text-align: left;
+  width: 40vw;
+  padding: 20px;
+  margin-top: 20px;
+}
+.doctor-name {
+  padding-bottom: 20px;
+  font-size: larger;
+}
+.rating {
+  padding-bottom: 10px;
+}
+.doctor-details {
+  margin-left: 20px !important;
+  width: 200px !important;
+  background-color: #3d8116 !important;
+  color: #fff !important;
+}
